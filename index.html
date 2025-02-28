@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Mes citations</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	
@@ -20,14 +21,14 @@
 <form action="" id="quotationForm">
 	<label for="texteCitation">Saisissez une citation</label>
 	<br>
-	<input type="textarea" id = texteCitation>
+	<textarea id="texteCitation" name="citation" rows="5" cols="30" placeholder="votre citation">
+	</textarea>
 	<br><br>
 	<label for="nomAuteur">Auteur/Autrice</label>
 	<br>
-	<input type="text" id=" nomAuteur">
+	<input type="text" id="nomAuteur" placeholder="nom auteur">
 	<br><br>
-	<button>Enregistrer</button>
-
+	<button type="submit" id="buttonSubmit">Enregistrer</button>
 </form>
 
 <hr>
@@ -41,6 +42,6 @@
 
 
 
-
+<script src="script.js"></script>
 </body>
 </html>
